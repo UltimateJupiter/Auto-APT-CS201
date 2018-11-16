@@ -1,0 +1,37 @@
+CLASS :: MedalTable
+FUNC_NAME :: generate
+INPUT :: String[] results
+RETURN :: String[]
+
+=========================
+int :: return -3131;
+int[] :: int[] ret = new int[1232]; return ret;
+String :: String ret = "there's no way this is the answer"; return ret;
+String[] :: String[] ret = new String[1232]; return ret;
+
+*
+
+CLASS :: FloodRelief
+FUNC_NAME :: minimumPumps
+INPUT :: String[] heights
+RETURN :: int
+
+=========================
+int :: return -3131;
+int[] :: int[] ret = new int[1232]; return ret;
+String :: String ret = "there's no way this is the answer"; return ret;
+String[] :: String[] ret = new String[1232]; return ret;
+
+*
+
+CLASS :: NumberFill
+FUNC_NAME :: gradient
+INPUT :: String[] picture
+RETURN :: int
+// RETURN :: String[]
+
+=========================
+int :: return -3131;
+int[] :: int[] ret = new int[1232]; return ret;
+String :: String ret = "there's no way this is the answer"; return ret;
+String[] :: String[] ret = new String[1232]; return ret;

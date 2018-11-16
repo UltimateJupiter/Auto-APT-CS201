@@ -1,0 +1,50 @@
+<STYLE TYPE="text/css" MEDIA="screen">
+<!--
+
+PRE.code { color: blue }
+XMP.code { color: blue }
+PRE.run  { color: red }
+CODE { color:blue}
+PRE.small { font-size: x-small}
+TABLE.border {
+   border: 1px solid black;
+    border-collapse: collapse;
+    empty-cells: show;
+}
+TH.border {
+   border: 1px solid black;
+   padding: 3px;
+   spacing: 2px;
+}
+TD.border {
+   padding: 3px;
+}
+
+TD{
+   border: 1px solid black;
+   padding: 3px;
+}
+
+TD.fail {
+background-color: FF0000;
+background-image: none;
+   font-weight: bold;
+   border: 1px solid black;
+   padding: 3px;
+}
+TD.count {
+   font-weight: bold;
+   border: 1px solid black;
+   padding: 3px;
+}
+
+TD.pass {
+background-color: 00FF00;
+background-image: none;
+   font-weight: bold;
+   border: 1px solid black;
+   padding: 3px;
+}
+
+-->
+</STYLE>
