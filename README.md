@@ -30,7 +30,7 @@ String[] :: String[] ret = new String[1232]; return ret;
 
 2. Run [blank_java.py](https://github.com/UltimateJupiter/Auto-APT/blob/master/blank_java.py) and you'll find a FloodRelief.java in "Fake" folder
 
-3. Submit this code to the platform, it should be all red. Download the page (e.g. APT _floodrelief.html) to "HTMLS" folder, please do not rename that html.
+3. Submit this code to the platform, it should be all red. Download the page (e.g. APT _floodrelief.html) to "HTMLS" folder, **please do not rename that html file.**
 
 4. Run [fake_gen.py](https://github.com/UltimateJupiter/Auto-APT/blob/master/fake_gen.py), you'll find a FloodRelief.java in "Solution" folder
 
