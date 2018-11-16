@@ -1,5 +1,4 @@
 from read_conf import read_config
-import string
 import packs
 
 
@@ -7,7 +6,6 @@ blank_dict, info_dict = read_config()
 
 fl = open("HTMLS/APT_ {}.html".format(info_dict["CLASS"].lower()))
 html = [x for x in fl]
-print(html)
 
 
 def single_process(l):
@@ -79,15 +77,13 @@ blank_file.write(packs.l2 % (info_dict["RETURN"], info_dict["FUNC_NAME"], info_d
 for k2 in total_dic:
     if input_type == "int":
         eq = if_for_int.format(k2, input_name)
-        std = standard.format(eq, total_dic[k2])
     if input_type == "String":
         eq = if_for_string.format(k2, input_name)
-        std = standard.format(eq, total_dic[k2])
     if "[]" in input_type:
         eq = if_for_arrays.format(k2, input_name)
-        std = standard.format(eq, total_dic[k2])
     else:
         break
+    std = standard.format(eq, total_dic[k2])
     blank_file.write(std)
 
 blank_file.write("        " + blank_dict[info_dict["RETURN"]] + '\n')
