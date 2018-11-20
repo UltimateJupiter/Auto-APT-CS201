@@ -1,7 +1,7 @@
 # Auto-APT
 APT solution violent auto-completer for DUKE CS201 (Java)
 
-### ! Please do not rely on this for all your APTs or you will fail on the exam
+### ! Please do not rely on this for all your APTs or you will fail the exam, get a low GPA, be unemployed, have no family, and die alone
 
 ##### The current version only takes String[], String, int[], int for input and output, multiple input/output is not supported
 
